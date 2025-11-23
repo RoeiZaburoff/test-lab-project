@@ -1,0 +1,77 @@
+.payment-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  color: #333;
+}
+
+.summary-box {
+  background-color: #f7f9fc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.payment-details {
+  margin-bottom: 20px;
+}
+
+.detail-group,
+.detail-group-inline {
+  margin-bottom: 15px;
+}
+
+.detail-group label,
+.detail-group-inline label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.detail-group input,
+.detail-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.detail-group-inline {
+  display: flex;
+  gap: 10px;
+}
+
+.detail-group-inline div {
+  flex: 1;
+}
+
+.order-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.order-btn:hover {
+  background-color: #0056b3;
+}
+
+input::placeholder {
+  color: #999;
+}
